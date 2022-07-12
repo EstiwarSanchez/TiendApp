@@ -73,7 +73,7 @@
 <p dir="auto" data-sourcepos="69:1-69:81">volvemos a la carpeta raíz de nuestro proyecto e ingresamos a la carpeta cliente</p>
 <ul dir="auto" data-sourcepos="71:1-76:0">
 <li data-sourcepos="71:1-71:98">Instalamos NodeJs para nuestro sistema operativo, esto para poder instalar dependecias con npm</li>
-<li data-sourcepos="72:1-72:71">ejecutamos en la consola <strong>npm install npm -g</strong> para actualizar npm</li>
+<li data-sourcepos="72:1-72:71">ejecutamos en la consola <strong>npm install</strong> para actualizar npm</li>
 <li data-sourcepos="74:1-74:141">Luego dentro de la carpeta raiz cliente ejecutamos el comando en la consola <strong>npm run dev</strong> para construir nuestra aplicación de front</li>
 <li data-sourcepos="75:1-76:0">Ahora solo queda servir los archivos resultantes en la carpeta dist a un servidor y podemos utilizar la aplicación.</li>
 </ul>
