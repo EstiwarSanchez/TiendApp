@@ -1,0 +1,24 @@
+@php
+    [
+        'rounded-b-md',
+        'rounded-t-md',
+        'fc-button-primary',
+        'fc-toolbar-title',
+        'dark:bg-purple-700',
+        'bg-purple-100',
+        'text-purple-800',
+        'dark:text-purple-50',
+        'text-psi-green-800',
+        'bg-psi-green-100',
+        'dark:bg-psi-green-700',
+        'dark:text-psi-green-50',
+        'text-psi-blue-800',
+        'bg-psi-blue-100',
+        'dark:bg-psi-blue-700',
+        'dark:text-psi-blue-50',
+        'text-psi-orange-800',
+        'bg-psi-orange-100',
+        'dark:bg-psi-orange-700',
+        'dark:text-psi-orange-50'
+    ]
+@endphp

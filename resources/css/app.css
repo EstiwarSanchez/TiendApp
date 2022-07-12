@@ -1,0 +1,14 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@layer components {
+    .fc-button-primary {
+        @apply px-2 py-1 text-xs bg-psi-blue-600 text-white shadow-sm inline-flex items-center border border-transparent rounded-md font-semibold tracking-widest transition hover:bg-psi-blue-500 active:bg-psi-blue-700 focus:border-psi-blue-300 focus:ring focus:ring-psi-blue-200 focus:ring-opacity-50 focus:outline-none disabled:opacity-25;
+    }
+    .fc-toolbar-title{
+        @apply font-semibold text-gray-800 dark:text-gray-300;
+    }
+    .disabled, input:disabled, textarea:disabled, select:disabled{
+        @apply bg-gray-100 dark:bg-opacity-20 dark:bg-white;
+    }
+}

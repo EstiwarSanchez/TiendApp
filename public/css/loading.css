@@ -1,0 +1,87 @@
+.absolute-center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.absolute-v-center {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.absolute-h-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#loading.bg-app-gradient {
+    -moz-filter: blur(25px);
+    -o-filter: blur(25px);
+    -ms-filter: blur(25px);
+    filter: blur(25px);
+}
+.bg-app-gradient {
+    background: #03a8d5;
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, #03a8d5), color-stop(50%, #72bc23), color-stop(100%, #e4891f));
+    background: linear-gradient(to bottom, #03a8d5 0%, #72bc23 50%, #e4891f 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#03a8d5', endColorstr='#e4891f', GradientType=0);
+}
+
+.text-app-gradient {
+    background: #03a8d5;
+    background: -webkit-gradient(left top, right top, color-stop(0%, #03a8d5), color-stop(52%, #72bc23), color-stop(100%, #e4891f));
+    background: linear-gradient(to right, #03a8d5 0%, #72bc23 52%, #e4891f 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#03a8d5', endColorstr='#e4891f', GradientType=1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bg-loading {
+    background: #ffff;
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, #ffff), color-stop(100%, #fafafa));
+    background: linear-gradient(to bottom, #ffff 0%, #fafafa 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffff', endColorstr='#fafafa', GradientType=0);
+}
+
+.fa-spin {
+    -webkit-animation: fa-spin 2s infinite linear;
+    animation: fa-spin 2s infinite linear;
+}
+
+@-webkit-keyframes fa-spin {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes fa-spin {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.r-0 {
+    right: 0;
+}
+
+.t-0 {
+    top: 0;
+}
+
+.l-0 {
+    left: 0;
+}
+
+.b-0 {
+    bottom: 0;
+}
+

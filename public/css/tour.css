@@ -1,0 +1,19 @@
+.shepherd-text {
+    color: rgba(0, 0, 0, 0.75);
+    font-size: inherit !important;
+    line-height: inherit !important;
+    padding: 0.75em;
+    text-align: left;
+}
+
+.tippy-tooltip[data-placement^=right] .tippy-arrow{
+    left: -20px !important;
+}
+
+.tippy-tooltip[data-placement^=bottom] .tippy-arrow {
+    top: -20px !important;
+}
+
+.tippy-tooltip[data-placement^=left] .tippy-arrow {
+    right: -8px !important;
+}

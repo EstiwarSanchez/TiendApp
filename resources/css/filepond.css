@@ -1,0 +1,43 @@
+@import "../../node_modules/filepond/dist/filepond.min.css";
+@import "../../node_modules/filepond-plugin-image-preview/dist/filepond-plugin-image-preview.min.css";
+
+.filepond--root {
+    @apply font-sans;
+}
+.filepond--panel-root{
+    @apply bg-transparent;
+}
+.filepond--panel,.filepond--panel[data-scalable=true] {
+    @apply !bg-white bg-opacity-5 !border !border-dashed dark:!border-gray-700 sm:rounded-2xl shadow-sm text-sm rounded-xl !border-gray-300;
+}
+.filepond--file-action-button{
+    @apply cursor-pointer shadow-md bg-black bg-opacity-20;
+}
+.filepond--file-action-button:hover,
+.filepond--file-action-button:focus {
+    box-shadow: 0 0 0 0.125em rgba(255, 255, 255, 0.9);
+}
+
+.filepond--drip-blob{
+    @apply !bg-app-blue-900 dark:!bg-white bg-opacity-80;
+}
+
+.filepond--drop-label {
+    @apply dark:text-gray-200 !text-sm;
+}
+
+.filepond--root {
+    margin-bottom: 0;
+}
+
+.filepond--credits{
+    display: none !important;
+}
+
+.filepond--image-preview{
+    @apply dark:!bg-app-gray-blue-800;
+}
+
+.filepond--image-preview-overlay-success{
+    @apply text-emerald-600;
+}
